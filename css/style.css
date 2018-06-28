@@ -1,0 +1,104 @@
+.main-title {
+  background: #F0F2F0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #011c94, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #011c94, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  color: #ffffff;
+  padding: 20px 20px 10px 20px;
+  margin: 0px;
+}
+
+.main-title h2{
+  text-align: center;
+  font-size: 45px;
+  margin: 0px;
+}
+
+#current-time {
+  float: right;
+  color: black;
+}
+
+th, td {
+  text-align: center;
+}
+thead tr {
+  border-bottom: 1px solid #313131;
+}
+thead i {
+  color: #313131;
+}
+.min-away, .destination {
+  background-color: #011c94;
+  color: white;
+}
+
+.trash-btn {
+  background-color: #808080;
+  border: none;
+  color: white;
+  height: 26px;
+  width: 26px;
+  padding: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.trash-btn:hover {
+  background-color: #E53935; 
+}
+
+.trash-btn .material-icons {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.train-logo {
+  color: #313131;
+  text-align: center;
+  margin: 40px auto 10px auto;
+  padding-top: 13px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid #f71a28;
+}
+
+.side-bar {
+  height: 100%;
+  min-height: 1000px !important;
+  border-right: 1px solid #011c94;
+}
+
+.side-bar h4 {
+  background-color: rgb(1, 28, 148);
+  border-radius: 3px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 8px;
+  text-align: center;
+  width: 200px;
+  margin: 0px auto 20px auto;
+}
+
+.center-button {
+  margin-top: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 3px 0px;
+}
+
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+ border-bottom: 1px solid #011c94 !important;
+ box-shadow: 0 2px 0 0 #011c94 !important;
+}
+
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+ color: #011c94 !important;
+}
