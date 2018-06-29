@@ -99,9 +99,9 @@ function update() {
     var minTillTrain = frequency - tRemainder;
 
     // Next Train
-    var nextTrain = moment().add(minTillTrain, "minutes");
+    var nextTrain = moment().add(minTillTrain, "hh:mm");
 
-    $(this).find('.arrival').html((nextTrain).format("H:mm"));  
+    $(this).find('.arrival').html((nextTrain).format("hh:mm"));  
     $(this).find('.min-away').html(minTillTrain);
 
   });
